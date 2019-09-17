@@ -1,6 +1,8 @@
 'use strict';
-const hashCodeMap = {'1':49,'2':50,'3':51,'4':52,'5':53,'6':54,'7':55,'8':56,'9':57,'0':48,'a':97,'b':98,'c':99,'d':100,'e':101,'f':102,'g':103,'h':104,'i':105,'j':106,'k':107,'l':108,'m':109,'n':110,'o':111,
-'p':112,'q':113,'r':114,'s':115,'t':116,'u':117,'v':118,'w':119,'x':120,'y':121,'z':122,'~':126,'!':33,'@':64,'#':35,'$':36,'%':37,'^':94,'&':38,'*':42,'(':40,')':41,'`':96,'[':91,']':93,';':59,'\'':39,'-':45,'_':95,'"':34,'\\':92,',':44,'.':46,'/':47,'{':123,'}':125,':':58,'|':124,'<':60,'>':62,'?':63};
+const hashCodeMap = {
+    '1': 49, '2': 50, '3': 51, '4': 52, '5': 53, '6': 54, '7': 55, '8': 56, '9': 57, '0': 48, 'a': 97, 'b': 98, 'c': 99, 'd': 100, 'e': 101, 'f': 102, 'g': 103, 'h': 104, 'i': 105, 'j': 106, 'k': 107, 'l': 108, 'm': 109, 'n': 110, 'o': 111,
+    'p': 112, 'q': 113, 'r': 114, 's': 115, 't': 116, 'u': 117, 'v': 118, 'w': 119, 'x': 120, 'y': 121, 'z': 122, '~': 126, '!': 33, '@': 64, '#': 35, '$': 36, '%': 37, '^': 94, '&': 38, '*': 42, '(': 40, ')': 41, '`': 96, '[': 91, ']': 93, ';': 59, '\'': 39, '-': 45, '_': 95, '"': 34, '\\': 92, ',': 44, '.': 46, '/': 47, '{': 123, '}': 125, ':': 58, '|': 124, '<': 60, '>': 62, '?': 63
+};
 
 const oriTable = "1234567890abcdefghijklmnopqrstuvwxyz";
 const encodeTable = "ijklnoqpmrwygxzsefhacdb3412657890vtu";
@@ -11,7 +13,17 @@ const DEFAULT_PAGE_NUM = 12
 
 module.exports = app => {
     return {
-        decrypt: function(encodeText) {
+        async less2css(ctx, lessText) {
+            console.log('app',this);
+            const less2css = await ctx.curl("http://tool.oschina.net/action/less/less_compile", { dataType: "text", method: "POST", data: lessText });
+            let less2cssData = JSON.parse(less2css.data);
+            if (!!less2cssData.css) {
+                return less2cssData.css;
+            }else{
+                return '';
+            }
+        },
+        decrypt: function (encodeText) {
             var result = "";
             var i = 0;
             encodeText = "" + encodeText.charAt(encodeText.length - 1) + encodeText.substring(1, encodeText.length - 1) + encodeText.charAt(0);
@@ -61,7 +73,7 @@ module.exports = app => {
             }
             return result;
         },
-        encrypt: function(unencodeText) {
+        encrypt: function (unencodeText) {
             var encodedText = "";
             unencodeText = (unencodeText).toString().toLowerCase();
             var newString = "";
@@ -70,21 +82,21 @@ module.exports = app => {
             unencodeText = newString;
             newString = "";
             var specCode = 0;
-    
+
             for (var specString = 0; specString < unencodeText.length; ++specString) {
                 var hashKey = unencodeText.substring(specString, specString + 1);
                 var hashCode = hashCodeMap[hashKey];
                 specCode += hashCode;
             }
-    
+
             var arg13 = specCode.toString();
             if (arg13.length > 1) {
                 arg13 = arg13.substring(arg13.length - 1, arg13.length) + arg13.substring(1, arg13.length - 1)
-                        + arg13.substring(0, 1);
+                    + arg13.substring(0, 1);
             }
-    
+
             unencodeText = arg13 + "|" + unencodeText;
-    
+
             var i;
             var c1;
             var c11;
@@ -98,10 +110,10 @@ module.exports = app => {
                     encodedText = encodedText + c1;
                 }
             }
-    
+
             unencodeText = encodedText;
             encodedText = "";
-    
+
             for (i = 0; i < unencodeText.length; ++i) {
                 c1 = unencodeText.charAt(i);
                 c11 = symbol.indexOf(c1);
@@ -112,9 +124,9 @@ module.exports = app => {
                     encodedText = encodedText + c1;
                 }
             }
-    
+
             newString = "";
-    
+
             for (i = 0; i < encodedText.length; i += 2) {
                 if (encodedText.length > i + 1) {
                     c1 = encodedText.charAt(i + 1);
@@ -126,7 +138,7 @@ module.exports = app => {
                     newString = newString + c1;
                 }
             }
-    
+
             encodedText = newString;
             newString = "";
             newString = newString + encodedText.charAt(encodedText.length - 1);
@@ -134,10 +146,10 @@ module.exports = app => {
             newString = newString + encodedText.charAt(0);
             return newString;
         },
-        randomn:function(n) {
+        randomn: function (n) {
             let res = ''
-            for (; res.length < n; res += Math.random().toString(36).substr(2).toLowerCase()) {}
+            for (; res.length < n; res += Math.random().toString(36).substr(2).toLowerCase()) { }
             return res.substr(0, n)
         }
     }
-  };
+};

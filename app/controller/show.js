@@ -9,8 +9,8 @@ class ShowController extends Controller {
     let query = ctx.request.body;
     
     let codeTree=query.codeTree;
-    let {html,css,js}=codeTree;
-    console.log('query:',codeTree);
+    let {html,less,js}=codeTree;
+    let css=await ctx.helper.util.less2css(ctx,less);
     if(query.codeKey!=''){
       ctx.cookies.set(query.codeKey,null);
     }
@@ -21,6 +21,7 @@ class ShowController extends Controller {
       httpOnly: false,
       signed: false,
     });
+    console.log("css:",css);
     let showView=await ctx.renderView('show',{
       'html':html,
       'css':`<style type="text/css" id="preview_css">${css}</style>`,
@@ -30,6 +31,7 @@ class ShowController extends Controller {
               "key":`keys_${newRandom}` 
               };
   }
+
   async display() {
     let {ctx}=this;
     let {key}=ctx.query;
@@ -38,21 +40,17 @@ class ShowController extends Controller {
       httpOnly: false,
       signed: false,
     });
-    console.log('getCookies:',key);
+    console.log('getCookies:',this);
     if(!!keyValue){
-      var {html,css,js} = JSON.parse(Base64.decode(keyValue));
+      var {html,less,js} = JSON.parse(Base64.decode(keyValue));
     }else{
-      var {html,css,js} ={
+      var {html,less,js} ={
         'html':'',
-        'css':'',
+        'less':'',
         'js':'',
       }
     }
-    // var {html,css,js} ={
-    //   'html':'',
-    //   'css':'',
-    //   'js':'',
-    // }
+    let css=await ctx.helper.util.less2css(ctx,less);
     let showView=await ctx.render('display',{
       'html':html,
       'css':`<style type="text/css" id="preview_css">${css}</style>`,
