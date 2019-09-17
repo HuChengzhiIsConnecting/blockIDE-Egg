@@ -1,0 +1,2117 @@
+2019-09-11 14:01:44,914 ERROR 57783 [-/127.0.0.1/-/52ms GET /api/show] nodejs.TypeError: ctx.renderToHtml is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:24)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+
+pid: 57783
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:01:45,013 ERROR 57783 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.TypeError: ctx.renderToHtml is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:24)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+
+pid: 57783
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:06:52,738 ERROR 57912 [-/127.0.0.1/-/9ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57912
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:06:52,801 ERROR 57912 [-/127.0.0.1/-/3ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57912
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:07:43,477 ERROR 57924 [-/127.0.0.1/-/9ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57924
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:07:43,516 ERROR 57924 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57924
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:10:16,058 ERROR 57951 [-/127.0.0.1/-/12ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57951
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:10:16,267 ERROR 57951 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57951
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:10:29,402 ERROR 57951 [-/127.0.0.1/-/0ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57951
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:10:29,494 ERROR 57951 [-/127.0.0.1/-/0ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57951
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:11:54,009 ERROR 57991 [-/127.0.0.1/-/20ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57991
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:11:54,261 ERROR 57991 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 57991
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:14:50,493 ERROR 58018 [-/127.0.0.1/-/9ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58018
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:14:50,625 ERROR 58018 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58018
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:18:53,790 ERROR 58063 [-/127.0.0.1/-/7ms GET /api/show] nodejs.Error: Cannot locate bundle file: /Users/yanyisong/Desktop/onlineide-egg/app/view/show.js
+    at Object.createBundleRenderer (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9486:15)
+    at Engine.createBundleRenderer (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:111:51)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:12)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+    at Engine.renderView (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:177:17)
+    at Object.renderToHtml (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/app/extend/context.js:10:25)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:24)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+
+pid: 58063
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:18:53,974 ERROR 58063 [-/127.0.0.1/-/1ms GET /api/show?html=&css=&js=] nodejs.Error: Cannot locate bundle file: /Users/yanyisong/Desktop/onlineide-egg/app/view/show.js
+    at Object.createBundleRenderer (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9486:15)
+    at Engine.createBundleRenderer (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:111:51)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:12)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+    at Engine.renderView (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:177:17)
+    at Object.renderToHtml (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/app/extend/context.js:10:25)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:24)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+
+pid: 58063
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:21:42,313 ERROR 58087 [-/127.0.0.1/-/9ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show.html
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58087
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:21:42,354 ERROR 58087 [-/127.0.0.1/-/1ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show.html
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58087
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:22:22,890 ERROR 58087 [-/127.0.0.1/-/0ms GET /api/show] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show.html
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58087
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:22:22,911 ERROR 58087 [-/127.0.0.1/-/0ms GET /api/show?html=&css=&js=] nodejs.SyntaxError: Invalid regular expression flags
+(function (exports, require, module, __filename, __dirname) { /Users/yanyisong/Desktop/onlineide-egg/app/view/show.html
+                                                              ^
+
+SyntaxError: Invalid regular expression flags
+    at new Script (vm.js:83:7)
+    at getCompiledScript (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9270:18)
+    at evaluateModule (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9285:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9361:18
+    at new Promise (<anonymous>)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9353:14
+    at Object.renderToString (/Users/yanyisong/Desktop/onlineide-egg/node_modules/vue-server-renderer/build.dev.js:9529:9)
+    at Promise (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+
+pid: 58087
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:17,031 ERROR 58339 [-/127.0.0.1/-/44ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:25,459 ERROR 58339 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:31,830 ERROR 58339 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:42,367 ERROR 58339 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:57,754 ERROR 58339 [-/127.0.0.1/-/0ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-11 14:39:58,314 ERROR 58339 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: query is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:9:17)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 58339
+hostname: yanyisongdeiMac.local
+
+2019-09-12 09:19:08,623 WARN 62557 [-/127.0.0.1/-/44ms POST /api/show] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-12 09:19:08,627 WARN 62557 [-/127.0.0.1/-/48ms POST /api/show] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 62557
+hostname: yanyisongdeiMac.local
+
+2019-09-12 09:19:18,735 WARN 62557 [-/127.0.0.1/-/1ms POST /api/show] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-09-12 09:19:18,736 WARN 62557 [-/127.0.0.1/-/2ms POST /api/show] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/app/extend/context.js:163:19)
+    at csrf (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 62557
+hostname: yanyisongdeiMac.local
+
+2019-09-16 13:59:45,304 ERROR 13571 [-/127.0.0.1/-/48ms POST /api/show] nodejs.ReferenceError: fs is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:20:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13571
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 13:59:46,213 ERROR 13571 [-/127.0.0.1/-/2ms POST /api/show] nodejs.ReferenceError: fs is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:20:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13571
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 13:59:50,060 ERROR 13571 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: fs is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:20:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13571
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:00:23,491 ERROR 13571 [-/127.0.0.1/-/2ms POST /api/show] nodejs.ReferenceError: fs is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:20:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13571
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:01:25,340 ERROR 13622 [-/127.0.0.1/-/44ms POST /api/show] nodejs.ReferenceError: appInfo is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:28)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13622
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:05:41,507 ERROR 13660 [-/127.0.0.1/-/26ms POST /api/show] nodejs.ReferenceError: callback is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:78)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13660
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:05:49,089 ERROR 13660 [-/127.0.0.1/-/6ms POST /api/show] nodejs.ReferenceError: callback is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:78)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13660
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:44:58,554 ERROR 14115 [-/127.0.0.1/-/24ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14115
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:46:56,045 ERROR 14160 [-/127.0.0.1/-/22ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14160
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:51:46,999 ERROR 14288 [-/127.0.0.1/-/29ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14288
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:51:47,703 ERROR 14288 [-/127.0.0.1/-/5ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14288
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:52:31,228 ERROR 14295 [-/127.0.0.1/-/41ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14295
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:53:05,698 ERROR 14295 [-/127.0.0.1/-/5ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14295
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:53:30,490 ERROR 14310 [-/127.0.0.1/-/36ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14310
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:54:06,514 ERROR 14310 [-/127.0.0.1/-/12ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14310
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 14:56:24,468 ERROR 14338 [-/127.0.0.1/-/28ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:23:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14338
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:05:01,961 ERROR 14459 [-/127.0.0.1/-/16ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14459
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:05:21,282 ERROR 14466 [-/127.0.0.1/-/20ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14466
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:05:22,256 ERROR 14466 [-/127.0.0.1/-/3ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14466
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:06:40,269 ERROR 14486 [-/127.0.0.1/-/16ms POST /api/show] nodejs.ReferenceError: helper is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14486
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:06:41,668 ERROR 14486 [-/127.0.0.1/-/1ms POST /api/show] nodejs.ReferenceError: helper is not defined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14486
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:10:25,687 ERROR 14515 [-/127.0.0.1/-/38ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14515
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:10:26,990 ERROR 14515 [-/127.0.0.1/-/5ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14515
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:10:41,333 ERROR 14528 [-/127.0.0.1/-/26ms POST /api/show] nodejs.TypeError: ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14528
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:17:23,475 ERROR 14582 [-/127.0.0.1/-/15ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14582
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:17:25,538 ERROR 14582 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14582
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:17:26,142 ERROR 14582 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14582
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:17:26,724 ERROR 14582 [-/127.0.0.1/-/0ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14582
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:17:36,638 ERROR 14599 [-/127.0.0.1/-/30ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14599
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:19:29,101 ERROR 14634 [-/127.0.0.1/-/37ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14634
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:19:30,055 ERROR 14634 [-/127.0.0.1/-/4ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14634
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:19:31,201 ERROR 14634 [-/127.0.0.1/-/3ms POST /api/show] nodejs.TypeError: Cannot read property 'encrypt' of undefined
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:36)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14634
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:20:51,884 ERROR 14649 [-/127.0.0.1/-/22ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14649
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:20:53,305 ERROR 14649 [-/127.0.0.1/-/5ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14649
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:21:14,756 ERROR 14656 [-/127.0.0.1/-/17ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14656
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:21:31,799 ERROR 14656 [-/127.0.0.1/-/3ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14656
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:21:32,881 ERROR 14656 [-/127.0.0.1/-/2ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14656
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:21:49,284 ERROR 14656 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14656
+hostname: yanyisongdeiMac.lan
+
+2019-09-16 15:36:59,922 ERROR 14854 [-/127.0.0.1/-/16ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:21:31)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14854
+hostname: yanyisongdeiMac
+
+2019-09-16 15:38:03,605 ERROR 14872 [-/127.0.0.1/-/14ms POST /api/show] nodejs.TypeError: this.ctx.helper.encrypt is not a function
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:8:31)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14872
+hostname: yanyisongdeiMac
+
+2019-09-16 15:44:35,052 ERROR 14982 [-/127.0.0.1/-/13ms POST /api/show] nodejs.ReferenceError: hashCodeMap is not defined
+    at Object.encrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:65:32)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:8:36)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14982
+hostname: yanyisongdeiMac
+
+2019-09-16 16:08:01,990 ERROR 15196 [-/127.0.0.1/-/15ms GET /api/display] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:29:59)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 15196
+hostname: yanyisongdeiMac
+
+2019-09-16 16:08:05,582 ERROR 15196 [-/127.0.0.1/-/1ms GET /api/display] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:29:59)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 15196
+hostname: yanyisongdeiMac
+
+2019-09-16 16:17:12,912 ERROR 15291 [-/127.0.0.1/-/6ms GET /api/display] nodejs.ReferenceError: keys is not defined
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:22:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+
+pid: 15291
+hostname: yanyisongdeiMac
+
+2019-09-16 16:24:30,440 ERROR 15356 [-/127.0.0.1/-/17ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15356
+hostname: yanyisongdeiMac
+
+2019-09-16 16:26:16,215 ERROR 15376 [-/127.0.0.1/-/16ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15376
+hostname: yanyisongdeiMac
+
+2019-09-16 16:26:17,916 ERROR 15376 [-/127.0.0.1/-/2ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15376
+hostname: yanyisongdeiMac
+
+2019-09-16 16:26:19,915 ERROR 15376 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15376
+hostname: yanyisongdeiMac
+
+2019-09-16 16:26:23,354 ERROR 15376 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15376
+hostname: yanyisongdeiMac
+
+2019-09-16 16:27:12,056 ERROR 15389 [-/127.0.0.1/-/21ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15389
+hostname: yanyisongdeiMac
+
+2019-09-16 16:27:15,842 ERROR 15389 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15389
+hostname: yanyisongdeiMac
+
+2019-09-16 16:27:17,535 ERROR 15389 [-/127.0.0.1/-/2ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15389
+hostname: yanyisongdeiMac
+
+2019-09-16 16:28:21,132 ERROR 15397 [-/127.0.0.1/-/18ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15397
+hostname: yanyisongdeiMac
+
+2019-09-16 16:28:22,223 ERROR 15397 [-/127.0.0.1/-/2ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15397
+hostname: yanyisongdeiMac
+
+2019-09-16 16:28:31,100 ERROR 15397 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15397
+hostname: yanyisongdeiMac
+
+2019-09-16 16:28:32,462 ERROR 15397 [-/127.0.0.1/-/1ms POST /api/show] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type object
+    at invalidArrayBufferView (internal/crypto/cipher.js:89:10)
+    at Cipher.update (internal/crypto/cipher.js:150:11)
+    at crypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:102:55)
+    at ShowController.index (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:11:22)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15397
+hostname: yanyisongdeiMac
+
+2019-09-16 17:34:09,766 ERROR 16146 [-/127.0.0.1/-/7ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:28:35)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 16146
+hostname: yanyisongdeiMac
+
+2019-09-16 17:34:13,889 ERROR 16146 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:28:35)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 16146
+hostname: yanyisongdeiMac
+
+2019-09-16 17:37:46,720 ERROR 16230 [-/127.0.0.1/-/10ms GET /api/display] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:195:33)
+
+pid: 16230
+hostname: yanyisongdeiMac
+
+2019-09-16 17:37:55,663 ERROR 16230 [-/127.0.0.1/-/1ms GET /api/display?key=keys_4g8bib7a88x7] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:195:33)
+
+pid: 16230
+hostname: yanyisongdeiMac
+
+2019-09-16 17:38:02,482 ERROR 16230 [-/127.0.0.1/-/1ms GET /api/display?key=keys_mqmq4e2qr9i7] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:195:33)
+
+pid: 16230
+hostname: yanyisongdeiMac
+
+2019-09-16 17:38:14,737 ERROR 16268 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:27:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 16268
+hostname: yanyisongdeiMac
+
+2019-09-16 17:58:35,583 ERROR 16498 [-/127.0.0.1/-/2ms GET /api/display] nodejs.SyntaxError: Unexpected token X in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:56)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16498
+hostname: yanyisongdeiMac
+
+2019-09-16 17:58:42,635 ERROR 16498 [-/127.0.0.1/-/1ms GET /api/display?key=keys_cmenjrojhdfm] nodejs.SyntaxError: Unexpected token X in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:56)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16498
+hostname: yanyisongdeiMac
+
+2019-09-16 17:59:29,807 ERROR 16506 [-/127.0.0.1/-/2ms GET /api/display?key=keys_zgzyx9ikshab] nodejs.SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:32)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16506
+hostname: yanyisongdeiMac
+
+2019-09-16 17:59:34,126 ERROR 16506 [-/127.0.0.1/-/1ms GET /api/display?key=keys_bbnrahdiluc6] nodejs.SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:32)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16506
+hostname: yanyisongdeiMac
+
+2019-09-16 17:59:36,626 ERROR 16506 [-/127.0.0.1/-/0ms GET /api/display?key=keys_qz7c6lq3wixz] nodejs.SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:32)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16506
+hostname: yanyisongdeiMac
+
+2019-09-17 09:08:51,937 ERROR 16690 [-/127.0.0.1/-/5ms GET /api/display] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:48:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16690
+hostname: yanyisongdeiMac
+
+2019-09-17 09:08:52,853 ERROR 16690 [-/127.0.0.1/-/0ms GET /api/display?key=keys_1tsb93k6ppy6] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:48:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 16690
+hostname: yanyisongdeiMac
+
+2019-09-17 09:23:38,675 ERROR 17256 [-/127.0.0.1/-/2ms GET /api/display?key=keys_z36liwdepp82] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:49:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 17256
+hostname: yanyisongdeiMac
+
+2019-09-17 09:25:08,330 ERROR 17275 [-/127.0.0.1/-/7ms GET /api/display] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:49:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 17275
+hostname: yanyisongdeiMac
+
+2019-09-17 09:25:15,625 ERROR 17275 [-/127.0.0.1/-/1ms GET /api/display?key=keys_u6oup02n8prh] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:49:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 17275
+hostname: yanyisongdeiMac
+
+2019-09-17 09:25:17,354 ERROR 17275 [-/127.0.0.1/-/0ms GET /api/display?key=keys_menq2wphfpwz] nodejs.TypeError: Cannot read property 'charAt' of undefined
+    at Object.decrypt (/Users/yanyisong/Desktop/onlineide-egg/app/helper/util.js:17:42)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:49:49)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+
+pid: 17275
+hostname: yanyisongdeiMac
+
+2019-09-17 09:47:14,840 ERROR 17504 [-/127.0.0.1/-/2ms GET /api/display] nodejs.ReferenceError: keyValue is not defined
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:35:45)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+
+pid: 17504
+hostname: yanyisongdeiMac
+
+2019-09-17 09:47:17,979 ERROR 17504 [-/127.0.0.1/-/1ms GET /api/display?key=keys_9fo01c4v454j] nodejs.ReferenceError: keyValue is not defined
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:35:45)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:36:12
+
+pid: 17504
+hostname: yanyisongdeiMac
+
+2019-09-17 09:52:00,804 ERROR 17529 [-/127.0.0.1/-/2ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:31:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17529
+hostname: yanyisongdeiMac
+
+2019-09-17 09:56:05,375 ERROR 17579 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:31:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17579
+hostname: yanyisongdeiMac
+
+2019-09-17 09:58:42,427 ERROR 17579 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:31:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17579
+hostname: yanyisongdeiMac
+
+2019-09-17 09:59:33,254 ERROR 17612 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:31:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17612
+hostname: yanyisongdeiMac
+
+2019-09-17 10:07:22,496 ERROR 17676 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:12:56,041 ERROR 17676 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:15:40,396 ERROR 17676 [-/127.0.0.1/-/2ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:16:08,563 ERROR 17676 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:16:22,112 ERROR 17676 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:18:03,489 ERROR 17676 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:32:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17676
+hostname: yanyisongdeiMac
+
+2019-09-17 10:23:18,044 ERROR 17839 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:34:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17839
+hostname: yanyisongdeiMac
+
+2019-09-17 10:26:27,005 ERROR 17864 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:35:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17864
+hostname: yanyisongdeiMac
+
+2019-09-17 10:27:19,490 ERROR 17873 [-/127.0.0.1/-/6ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:27:59,879 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:28:04,945 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:31:27,523 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:31:39,057 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:34:42,463 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:34:58,717 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:35:11,888 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:35:17,685 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:35:31,987 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:39:26,370 ERROR 17873 [-/127.0.0.1/-/2ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:39:31,301 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:39:46,781 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:40:17,079 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:43:28,892 ERROR 17873 [-/127.0.0.1/-/2ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:43:31,095 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:44:32,501 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:44:38,130 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:44:53,040 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:45:16,344 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:45:23,855 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:45:28,682 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:45:36,467 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:45:52,197 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:46:00,495 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:46:45,289 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:46:49,848 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:46:56,808 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:47:03,154 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:47:32,751 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:49:45,862 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:51:09,618 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:51:12,018 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:55:29,235 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 10:55:32,579 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:14:10,317 ERROR 17873 [-/127.0.0.1/-/1ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:14:33,833 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:14:48,402 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:14:52,981 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:15:33,543 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:15:46,835 ERROR 17873 [-/127.0.0.1/-/2ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:15:52,364 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 11:23:29,601 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 14:53:19,286 ERROR 17873 [-/127.0.0.1/-/16ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+
+2019-09-17 14:53:38,912 ERROR 17873 [-/127.0.0.1/-/0ms GET /api/display] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:135:10)
+    at Cookies.get (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-cookies/lib/cookies.js:57:32)
+    at ShowController.display (/Users/yanyisong/Desktop/onlineide-egg/app/controller/show.js:36:30)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yanyisong/Desktop/onlineide-egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yanyisong/Desktop/onlineide-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/yanyisong/Desktop/onlineide-egg/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 17873
+hostname: yanyisongdeiMac
+

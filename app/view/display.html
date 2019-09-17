@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>show</title>
+    <script type="text/javascript" src="//unpkg.com/vue"></script>
+    <%- css %>
+    <%- js %>
+</head>
+
+<body>
+    <%- html %>
+        <!-- <script>
+  
+                window.parent.postMessage({
+                cmd: 'returnJson'
+            }, '*');
+            window.addEventListener("message", function (event) {
+                var data = event.data;
+                switch (data.cmd) {
+                    case 'getJson':
+                    console.log(333);
+                    // document.write(data.view);
+                    window.location.reload(true);
+                        break;
+                }
+                // 根据上面制定的结构来解析iframe内部发回来的数据
+
+            }, false);
+        </script> -->
+</body>
+
+</html>
