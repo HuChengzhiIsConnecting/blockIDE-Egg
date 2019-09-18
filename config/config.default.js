@@ -11,6 +11,18 @@ module.exports = appInfo => {
    * built-in config
    * @type {Egg.EggAppConfig}
    **/
+    appInfo.sessionStore = {
+    // support promise / async
+    async get (key) {
+      // return value;
+    },
+    async set (key, value, maxAge) {
+      // set key to store
+    },
+    async destroy (key) {
+      // destroy key
+    },
+  };
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security

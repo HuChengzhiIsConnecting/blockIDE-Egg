@@ -1,4 +1,5 @@
 'use strict';
+let less=require('less');
 const hashCodeMap = {
     '1': 49, '2': 50, '3': 51, '4': 52, '5': 53, '6': 54, '7': 55, '8': 56, '9': 57, '0': 48, 'a': 97, 'b': 98, 'c': 99, 'd': 100, 'e': 101, 'f': 102, 'g': 103, 'h': 104, 'i': 105, 'j': 106, 'k': 107, 'l': 108, 'm': 109, 'n': 110, 'o': 111,
     'p': 112, 'q': 113, 'r': 114, 's': 115, 't': 116, 'u': 117, 'v': 118, 'w': 119, 'x': 120, 'y': 121, 'z': 122, '~': 126, '!': 33, '@': 64, '#': 35, '$': 36, '%': 37, '^': 94, '&': 38, '*': 42, '(': 40, ')': 41, '`': 96, '[': 91, ']': 93, ';': 59, '\'': 39, '-': 45, '_': 95, '"': 34, '\\': 92, ',': 44, '.': 46, '/': 47, '{': 123, '}': 125, ':': 58, '|': 124, '<': 60, '>': 62, '?': 63
@@ -13,15 +14,14 @@ const DEFAULT_PAGE_NUM = 12
 
 module.exports = app => {
     return {
-        async less2css(ctx, lessText) {
-            console.log('app',this);
-            const less2css = await ctx.curl("http://tool.oschina.net/action/less/less_compile", { dataType: "text", method: "POST", data: lessText });
-            let less2cssData = JSON.parse(less2css.data);
-            if (!!less2cssData.css) {
-                return less2cssData.css;
-            }else{
-                return '';
-            }
+        async less2css(lessText) {
+            let css= "";
+            await less.render(lessText, function (e, output) {
+                // console.log('output:',output);
+                css=!!output?output.css:-1;
+              });//代码集合中的less代码转css代码，格式不正确返回-1
+              
+              return css;
         },
         decrypt: function (encodeText) {
             var result = "";
