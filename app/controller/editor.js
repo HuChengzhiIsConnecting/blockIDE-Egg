@@ -8,6 +8,7 @@ class EditorController extends Controller {
   async edit() {
     //编辑代码实时处理
     const { ctx } = this;
+    console.log(ctx);
     let query = ctx.request.body;//获取数据{codeTree:代码集合,codeKey:存入缓存的key值}
     let codeTree=query.codeTree;
     let {html,less,js}=codeTree;
