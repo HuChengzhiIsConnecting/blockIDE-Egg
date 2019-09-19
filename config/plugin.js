@@ -13,4 +13,15 @@ exports.helper = {
   enable: true,
   package: 'egg-helper',
 };
+exports.session = true;
+
+exports.sessionRedis = {
+  enable: true,
+  package: 'egg-session-redis',
+};
+ 
+exports.redis = {
+  enable: true,
+  package: 'egg-redis',
+};
 

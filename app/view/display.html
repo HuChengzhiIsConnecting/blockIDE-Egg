@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>show</title>
     <script type="text/javascript" src="//unpkg.com/vue"></script>
+    <script>
+        Vue.component('button-counter', {
+            data: function () {
+                return {
+                count: 0
+                } 
+            },
+            template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+            })
+    </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
     <%- css %>
     <%- js %>

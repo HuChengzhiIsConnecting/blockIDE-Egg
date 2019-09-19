@@ -37,6 +37,18 @@ module.exports = appInfo => {
     credentials: true,
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
+  exports.redis = {
+    // your redis configurations
+    client: {
+      port: 6379, // Redis port
+      host: '127.0.0.1', // Redis host
+      password: '',
+      db: 0,
+      }
+  };
+  exports.sessionRedis = {
+    name: 'session', // specific instance `session` as the session store
+  };
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
