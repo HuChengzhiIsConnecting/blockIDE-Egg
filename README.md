@@ -31,3 +31,7 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+###redis （存放用于实时预览的代码）
+
+download https://redis.io
