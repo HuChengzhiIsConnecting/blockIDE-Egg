@@ -59,7 +59,7 @@ class EditorController extends Controller {
         msg:'less格式不正确！' 
       };
       return;
-    }
+    } 
     const res = await ctx.service.editor.save({
       code:JSON.stringify(ctx.request.body)
     });
