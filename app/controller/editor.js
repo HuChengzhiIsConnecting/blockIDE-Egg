@@ -46,7 +46,6 @@ class EditorController extends Controller {
     let {html,less,js}=ctx.request.body;
     let css=await ctx.helper.util.less2css(less);//代码集合中的less代码转css代码
     var htmlMsg = HTMLHint.verify(html, {"tagname-lowercase": false,"attr-lowercase": false,'tag-pair': true,"title-require": false,"id-unique": false});
-    console.log(htmlMsg);
     if(htmlMsg.length){
       ctx.body={
         code:'900001',
@@ -61,6 +60,10 @@ class EditorController extends Controller {
       };
       return;
     }
+    const res = await ctx.service.editor.save({
+      code:JSON.stringify(ctx.request.body)
+    });
+    console.log('res:',res);
     ctx.body={
       code:'100000',
       msg:'success'

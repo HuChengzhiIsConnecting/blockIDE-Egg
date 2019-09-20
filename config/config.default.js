@@ -6,6 +6,7 @@
  * @param {Egg.EggAppInfo} appInfo app info
  */
 const path =require('path');
+const {mysql} = require('./mysql');
 module.exports = appInfo => {
   /**
    * built-in config
@@ -18,6 +19,7 @@ module.exports = appInfo => {
 
   // add your middleware config here
   config.middleware = [];
+  config.mysql = mysql;
   config.view = {
     mapping: { '.html': 'ejs' } //左边写成.html后缀，会自动渲染.html文件
 
